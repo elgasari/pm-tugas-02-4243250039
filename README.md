@@ -12,6 +12,25 @@
 
 Aplikasi Console Kasir Sederhana merupakan program berbasis bahasa Dart yang dibuat untuk membantu proses transaksi pada toko oleh-oleh di Medan. Program ini dapat menampilkan katalog produk, menerima pesanan pelanggan, memeriksa validitas pesanan, menghitung total belanja, memberikan diskon, dan menampilkan struk pembelian.
 
+## Cara Menjalankan Program
+
+Pastikan Dart SDK sudah terinstal di komputer.
+
+1. Buka folder proyek melalui VS Code.
+2. Buka terminal pada folder utama proyek.
+3. Jalankan perintah berikut:
+
+```bash
+dart run bin/kasir.dart
+```
+
+4. Masukkan pesanan sesuai format yang tersedia, misalnya:
+
+```text
+P01x2, P03x1
+```
+
+5. Program akan menampilkan struk pembelian beserta total belanja dan diskon jika memenuhi ketentuan.
 ## Daftar Produk
 
 | Kode | Nama Produk | Harga |
